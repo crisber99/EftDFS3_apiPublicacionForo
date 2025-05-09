@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bbravo.api_publicacion_foro.Exception.api_foroNotFoundException;
+import com.bbravo.api_publicacion_foro.Exception.api_foroNFEx;
 
 import lombok.RequiredArgsConstructor;
 
@@ -46,7 +46,7 @@ public class RespuestasController {
             WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(this.getClass()).getAllRespuesta()).withRel("all-respuestas"));
         }
         else{
-            throw new api_foroNotFoundException("Respuestas no funciona con el id: " + id);
+            throw new api_foroNFEx("Respuestas no funciona con el id: " + id);
         }
     }
     
