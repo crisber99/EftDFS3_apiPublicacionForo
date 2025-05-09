@@ -1,0 +1,7 @@
+com\bbravo\api_publicacion_foro\ApiPublicacionForoApplication.class
+com\bbravo\api_publicacion_foro\Exception\api_foroNFEx.class
+com\bbravo\api_publicacion_foro\Respuesta\Respuestas.class
+com\bbravo\api_publicacion_foro\Respuesta\RespuestasService.class
+com\bbravo\api_publicacion_foro\Exception\ErrorResponse.class
+com\bbravo\api_publicacion_foro\Respuesta\RespuestasController.class
+com\bbravo\api_publicacion_foro\Respuesta\RespuestasRepository.class
